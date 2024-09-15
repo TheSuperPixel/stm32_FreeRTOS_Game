@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.ino": "arduino-output",
+        "oled.h": "c",
+        "game2.h": "c",
+        "stm32f10x.h": "c",
+        "game1.h": "c",
+        "task.h": "c",
+        "stdlib.h": "c",
+        "led.h": "c",
+        "sys.h": "c",
+        "menu.h": "c",
+        "game3.h": "c",
+        "key.h": "c"
+    }
+}

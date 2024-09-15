@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: crx,  , LIC=KRMW3-AN65U-PCSJ8-3WYLP-JFC8M-5VI9K
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+E:\陈日新宝贵文件,闲人勿看！\硬件开发\其他资料\自制游戏机\publish\code\USER\LED.uvprojx
+Project File Date:  07/17/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'LED'
+compiling main.c...
+..\HARDWARE\game1\game1.h(3): warning:  #1295-D: Deprecated declaration Buzzer_Init - give arg types
+  void Buzzer_Init();    // 铚傞福鍣ㄥ垵濮嬪寲
+..\HARDWARE\game1\game1.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\game2\game2.h(73): warning:  #1295-D: Deprecated declaration ponovo - give arg types
+    void ponovo();
+..\HARDWARE\game2\game2.h(74): warning:  #1295-D: Deprecated declaration get_key_status - give arg types
+    int get_key_status();
+..\HARDWARE\menu\menu.h(4): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\game2\OLED2.h(26): warning:  #47-D: incompatible redefinition of macro "scl_Pin"  (declared at line 67 of "..\HARDWARE\game2\game2.h")
+  #define scl_Pin GPIO_Pin_8
+..\HARDWARE\game2\OLED2.h(28): warning:  #47-D: incompatible redefinition of macro "sda_Pin"  (declared at line 69 of "..\HARDWARE\game2\game2.h")
+  #define sda_Pin GPIO_Pin_9
+main.c(64): warning:  #223-D: function "Key_Init" declared implicitly
+  	Key_Init();
+main.c(66): warning:  #223-D: function "Color_LED_Init" declared implicitly
+  	Color_LED_Init();
+main.c(67): warning:  #223-D: function "music_PWM_Init" declared implicitly
+  	music_PWM_Init();
+main.c(68): warning:  #223-D: function "music_PWM_SetCompare4" declared implicitly
+  	music_PWM_SetCompare4(0);
+main.c(106): warning:  #223-D: function "menu" declared implicitly
+  		menu_select_num = menu();
+main.c(206): warning:  #223-D: function "MUSIC_Analysis" declared implicitly
+  		MUSIC_Analysis();
+main.c(243): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=38172 RO-data=21640 RW-data=7480 ZI-data=10376  
+FromELF: creating hex file...
+"..\OBJ\LED.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LED
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
